@@ -33,11 +33,11 @@ module SUBS where
 -- Sample Output
 --
 -- 2 4 10
-import Prelude hiding (filter, length, take)
+import           Prelude   hiding (filter, length, take)
 
-import System.IO
-import Data.Text (Text, pack, unpack, filter, length, tails, take)
 import qualified Data.List as DL
+import           Data.Text (Text, filter, length, pack, tails, take, unpack)
+import           System.IO
 
 candidates :: Int -> Text -> [Text]
 candidates prefixLength text = [ t | t <- tails text, length t >= prefixLength ]
