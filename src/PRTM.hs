@@ -1,8 +1,8 @@
 module PRTM where
 
-import System.IO
-import qualified Data.Map as M
-import qualified Numeric as N
+import qualified Data.Map  as M
+import qualified Numeric   as N
+import           System.IO
 
 toPair :: [String] -> (Char, Float)
 toPair [protein, weight] = (head protein, (fst . head) $ N.readFloat weight)

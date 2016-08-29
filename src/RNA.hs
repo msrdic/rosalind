@@ -21,7 +21,7 @@ module RNA where
 
 -- GAUGGAACUUGACUACGUAAAUU
 
-import System.IO
+import           System.IO
 
 main :: IO ()
 main = withFile "rosalind_rna.txt" ReadMode (\h->hGetContents h >>= return . map rna >>= print) where rna b = if b == 'T' then 'U' else b

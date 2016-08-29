@@ -31,8 +31,8 @@ module SIGN where
 -- 2 -1
 -- 2 1
 
-import Data.List
-import System.IO
+import           Data.List
+import           System.IO
 
 showPerm :: [Int] -> String
 showPerm [] = ""

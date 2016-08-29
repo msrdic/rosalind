@@ -26,8 +26,8 @@ module PERM where
 -- 3 1 2
 -- 3 2 1
 
-import System.IO
-import Data.List
+import           Data.List
+import           System.IO
 
 showIntList :: [Int] -> String
 showIntList [] = ""

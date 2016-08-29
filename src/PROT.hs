@@ -1,9 +1,9 @@
 module PROT where
 
-import System.IO
-import Prelude hiding (concat)
-import Data.Text (Text, chunksOf, pack, concat, unpack)
-import qualified Data.Map as M
+import qualified Data.Map  as M
+import           Data.Text (Text, chunksOf, concat, pack, unpack)
+import           Prelude   hiding (concat)
+import           System.IO
 
 toProtein :: M.Map Text Text -> [Text] -> Text
 toProtein translationTable codons = concat $ map (codonToProtein translationTable) codons

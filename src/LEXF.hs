@@ -1,4 +1,4 @@
-{-# LANGUAGE FlexibleInstances #-}
+{-# LANGUAGE FlexibleInstances    #-}
 {-# LANGUAGE TypeSynonymInstances #-}
 module LEXF where
 
@@ -44,10 +44,10 @@ module LEXF where
 -- CG
 -- CC
 
-import System.IO
-import Data.List
-import Data.Monoid
-import Control.Applicative
+import           Control.Applicative
+import           Data.List
+import           Data.Monoid
+import           System.IO
 
 -- type input here from the file
 data Alpha = U | Q | I | Z | N | S | R | W | E | Y

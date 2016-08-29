@@ -1,10 +1,8 @@
 -- problem URL: http://rosalind.info/problems/lexv/
 module VariableLexKMers where
 
-  import           Control.Applicative
   import           Data.List
-  import           Data.Monoid
-  import           System.IO
+
 
   -- type input here from the file
   -- S L O G N Z V K H P

@@ -22,9 +22,9 @@ module DNA where
 
 -- 20 12 17 21
 
-import System.IO
-import Data.List
-import Control.Monad.IO.Class
+import           Control.Monad.IO.Class
+import           Data.List
+import           System.IO
 
 count = openFile "rosalind_dna.txt" ReadMode >>=
     hGetContents >>=

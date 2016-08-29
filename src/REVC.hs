@@ -22,7 +22,7 @@ module REVC where
 
 -- ACCGGGTTTT
 
-import System.IO
+import           System.IO
 
 baseComplement :: Char -> Char
 baseComplement 'A' = 'T'

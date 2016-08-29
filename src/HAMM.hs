@@ -25,7 +25,7 @@ module HAMM where
 
 -- 7
 
-import System.IO
+import           System.IO
 
 baseDiff b1 b2
     | compare b1 b2 == EQ   = 0
