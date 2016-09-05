@@ -1,6 +1,6 @@
 module CompletingATree where
 
-import           Data.List   (nub, partition)
+import           Data.List (nub, partition)
 
 -- this should be easy: count the number of isolated graphs and number of
 -- edges is that number minus 1
